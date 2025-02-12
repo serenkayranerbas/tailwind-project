@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./public/**/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     container:{
       center:true,
@@ -20,9 +21,13 @@ module.exports = {
         'gega-melon': '#FFD369',
         'gega-grey': '#DDDDDD',
         'gega-white': '#F7F7F7',
+        'gega-green':'#b6b56a',
       },
       spacing:{
         128:'32rem',
+        96:'24rem',
+        56:'14rem',
+        48:'12rem',
       }
     },
   },
